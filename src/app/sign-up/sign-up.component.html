@@ -55,7 +55,7 @@
     <div>
         
         <label for="password-order">Password</label>
-        <input name="password-order" type="text" [(ngModel)]="model.password" #password="ngModel" required email>
+        <input name="password-order" type="password" [(ngModel)]="model.password" #password="ngModel" required email>
 
     </div>
     <div *ngIf="sign.submitted && password.errors">
